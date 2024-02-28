@@ -1,0 +1,18 @@
+.p_main{
+    color: #ffffff;
+    text-align: center;
+    padding: 4em;
+}
+.p_main h1{
+    font-size: 48px;
+    font-weight: 500;
+}
+.p_main p{
+    font-size: 20px;
+}
+.p_icon:hover{
+    color: #4175fc;
+}
+.p_icon{
+  font-size: 4em;  
+}

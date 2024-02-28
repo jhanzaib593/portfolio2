@@ -1,0 +1,22 @@
+.main_ex {
+  padding-top: 3em;
+}
+.ex_row {
+  padding: 4em 0;
+}
+.ex_main {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+.ex_main h6 {
+  font-size: 18px;
+  font-weight: 400;
+}
+.ex_main h6:nth-child(2) {
+  color: #4175fc;
+}
+.ex_pro {
+  block-size: 2em;
+  inline-size: 30em;
+}

@@ -1,0 +1,33 @@
+.f_icon {
+  display: inline-flex;
+  gap: 23px;
+  font-size: 22px;
+  font-weight: 400;
+  justify-content: center;
+}
+.f_icon span {
+  color: white;
+}
+.f_icon span:hover {
+  color: white;
+}
+.f_logo {
+  text-align: center;
+}
+.f_email {
+  text-align: center;
+  padding: 20px 0;
+}
+.f_email a {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+.Footer_l {
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  font-weight: 500;
+  color: white;
+}

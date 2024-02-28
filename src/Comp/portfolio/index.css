@@ -1,0 +1,45 @@
+.p_main {
+  color: #ffffff;
+  text-align: center;
+  padding: 4em;
+}
+.p_main h1 {
+  font-size: 48px;
+  font-weight: 500;
+}
+.p_main p {
+  font-size: 20px;
+}
+.p_icon:hover {
+  color: #4175fc;
+}
+.p_icon {
+  font-size: 4em;
+}
+
+.mySwiper {
+  padding: 4em 0 !important;
+}
+/* 
+.swiper {
+    width: 100%;
+    height: 100%;
+} */
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 436px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}

@@ -1,0 +1,67 @@
+.wappers {
+  background-color: #f0ffff;
+}
+.wapper_s {
+  background-color: #f3f5f5;
+  background-image: url(../../img/shape1.png);
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+}
+.wapper_f {
+  background-color: #f3f5f5;
+  background-image: url(../../img/shape1-horiz.png);
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+}
+.wapper_t {
+  background-image: url(../../img/1.avif);
+  background-repeat: no-repeat;
+  padding: 5em;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+.wapper_l{
+  background-color: #4175fc;
+  padding: 5em 0 4px 0 ;
+}
+
+.container {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}

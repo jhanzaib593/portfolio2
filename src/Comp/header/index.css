@@ -1,0 +1,50 @@
+.nav {
+  display: flex;
+  gap: 23px;
+  line-height: 50px;
+  justify-content: center;
+}
+.nav_link {
+  color: black;
+}
+.btn {
+  line-height: 50px;
+}
+.h_btn {
+  text-align: end;
+}
+@media only screen and (min-width: 100px) and (max-width: 613px) {
+  .h-main {
+    display: none;
+  }
+  .h_bmain {
+    display: none;
+  }
+  .h_icon {
+    display: block !important;
+  }
+}
+.h_icon {
+  display: none;
+  font-size: 25px;
+  padding: 20px 0;
+  float: inline-end;
+}
+.nav1 {
+  gap: 23px;
+  display: grid;
+}
+.nav_link1 {
+  color: black;
+  transition: 0.5s;
+}
+.nav_link1:hover {
+  color: white;
+  background-color: #4175fc;
+  padding: 7px 84px 9px 10px;
+  width: 100%;
+  border-radius: 4px;
+}
+.h_b_da {
+  padding-top: 50px;
+}

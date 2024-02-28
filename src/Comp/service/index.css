@@ -1,0 +1,32 @@
+.p5{
+  padding-top: 40px;
+}
+.s_main{
+  padding:4em 0;
+}
+.s_f{
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 3em;
+  margin: 10px 17px;
+}
+.s_f_text{
+  padding: 10px 3em;
+}
+.s_f_text h3{
+  font-size: 22px;
+}
+.s_f_text p{
+  font-size: 18px;
+}
+.s_icon{
+  font-size: 43px;
+  color: #69727d;
+  padding: 1em 0;
+}
+@media screen and (max-width: 767px) and (min-width: 300px) {
+  .s_f{
+    margin: 10px 0px;
+  }
+}

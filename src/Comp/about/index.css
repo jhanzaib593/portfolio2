@@ -1,0 +1,39 @@
+.ab_h {
+  text-align: center;
+  position: relative;
+}
+.ab_h h1 {
+  font-weight: 600;
+}
+.ab_line {
+  border-top: 2px solid #4175fc;
+  text-align: center;
+  margin: 0 auto;
+  width: 11%;
+}
+.ab_line1 {
+  border-top: 2px solid #4175fc;
+  width: 17%;
+}
+.ab_main {
+  padding: 10px 10px;
+}
+.ab_text {
+  margin: auto;
+  padding: 0 20px;
+}
+.ab_row {
+  padding-top: 3em;
+}
+.ab_img {
+  padding: 28px 16px;
+}
+.ab_img img {
+  box-shadow: 18px -16px 0 3px #4175fc;
+  border-radius: 10px;
+}
+@media only screen and (min-width: 100px) and (max-width: 613px) {
+  .ab_img {
+    text-align: center;
+  }
+}
